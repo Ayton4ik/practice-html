@@ -1,9 +1,12 @@
-ul{
+ ul{
     list-style: none;
 }
+
+/*
 *{
     color: black;
 }
+
 p,
 ul,
 h1,
@@ -11,10 +14,40 @@ h2,
 h3{
     background-color: yellow;
 }
+
 .section-title{
     background-color: tomato;
     width: 100px;
 }
+
 #title{
     font-size: 48px;
+}
+
+.list p {
+    background-color: yellowgreen;
+} */
+
+/* ul > li{
+    color: blueviolet;
+} */
+
+/* h3 + p{
+    color: brown;
+} */
+
+/* h3 ~ p{
+    color: tomato;
+} */
+
+/* a[href]{
+    color: red;
+} */
+
+section > ul{
+    background-color: green;
+}
+
+li + li{
+    color: red;
 }
