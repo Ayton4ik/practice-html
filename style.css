@@ -43,11 +43,43 @@ h3{
 /* a[href]{
     color: red;
 } */
-
+/* 
 section > ul{
     background-color: green;
 }
 
 li + li{
     color: red;
+} */
+
+/* body{
+    color: blue;
+} */
+
+
+/* .section-title{
+    background-color: brown;
+}
+
+h3{
+    font-size: 24px;
+    color: red;
+}
+
+ul{
+    border: 1px solid black;
+} */
+
+.hero-button{
+    background-color: blueviolet;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.hero-button:disabled{
+    background-color: black;
 }
